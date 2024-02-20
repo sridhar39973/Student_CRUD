@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Details</title>
+</head>
+<body>
+    <h2>Student details are:</h2>
+    <table border="1">
+        <tr>
+            <td>Roll no</td>
+            <td>Name</td>
+            <td>PhoneNumber</td>
+            <td>Email</td>
+            <td>Address</td>
+        </tr>
+        <tr th:if="${student != null}">
+            <td th:text="${student.rollno}"></td>
+            <td th:text="${student.student_name}"></td>
+            <td th:text="${student.student_phonenumber}"></td>
+            <td th:text="${student.email}"></td>
+            <td th:text="${student.address}"></td>
+        </tr>
+    </table>  <br><br>
+    <a href="/retrieve"><button>Retrieve Another Student</button></a> <br> <br>
+</body>
+</html>
