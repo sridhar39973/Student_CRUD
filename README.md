@@ -53,28 +53,23 @@ Open your Spring Tool Suite (STS) IDE.
    spring.jpa.hibernate.ddl-auto=update
 Adjust spring.datasource.url, spring.datasource.username, and spring.datasource.password according to your MySQL setup.
 
-Step 5: Create the Student Entity
-Create a Student entity class in com.example.sms.entity. Define fields like id, name, and email.
+### Step 5: Create the Student Entity
+Create a Student entity class in `com.example.sms.entity`. Define fields like `id`, `name`, and `email`.
 
-Step 6: Create Repository Interface
-Create a StudentRepository interface in com.example.sms.repository. This interface extends JpaRepository<Student, Long> to handle CRUD operations for Student entities.
+### Step 6: Create Repository Interface
+Create a StudentRepository interface in `com.example.sms.repository`. This interface extends `JpaRepository<Student, Long>` to handle CRUD operations for Student entities.
 
-Step 7: Create RESTful Controller
+### Step 7: Create RESTful Controller
 Create a StudentController class in com.example.sms.controller. Define REST endpoints (GET, POST, PUT, DELETE) to manage Student entities using StudentRepository.
 
-Step 8: Run the Application
+### Step 8: Run the Application
 Right-click on the project.
 Select Run As -> Spring Boot App.
 The application will start at http://localhost:8080.
-Step 9: Test APIs
-Use tools like Postman to test the CRUD operations:
 
-GET /students/ - Get all students.
-POST /students/ - Create a student.
-GET /students/{id} - Get student by ID.
-PUT /students/{id} - Update a student by ID.
-DELETE /students/{id} - Delete a student by ID.
-Step 10: Push to GitHub
+### Step 9: Execute the CRUD.
+
+### Step 10: Push to GitHub
 Initialize a Git repository in your project if not already done.
 Create a .gitignore file to exclude IDE files and target directory.
 Commit your changes and push to your GitHub repository.
