@@ -1,4 +1,4 @@
-# SMS (Student Management System) Setup Guide
+# SMS (Student Management System)  🎓📚 Setup Guide
 
 This guide will help you set up a basic Student Management System (SMS) using Spring Boot with MySQL.
 
