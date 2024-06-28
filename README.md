@@ -54,10 +54,10 @@ Open your Spring Tool Suite (STS) IDE.
 Adjust spring.datasource.url, spring.datasource.username, and spring.datasource.password according to your MySQL setup.
 
 ### Step 5: Create the Student Entity
-Create a Student entity class in `com.example.sms.entity`. Define fields like `id`, `name`, and `email`.
+Create a Student entity class in `com.example.sms.entity`. Define fields like `id`, `name`,`phone_number`, `email` and `address`;
 
 ### Step 6: Create Repository Interface
-Create a StudentRepository interface in `com.example.sms.repository`. This interface extends `JpaRepository<Student, Long>` to handle CRUD operations for Student entities.
+Create a StudentRepository interface in `com.example.sms.repository`. This interface extends `JpaRepository<Student, Integer>` to handle CRUD operations for Student entities.
 
 ### Step 7: Create RESTful Controller
 Create a StudentController class in com.example.sms.controller. Define REST endpoints (GET, POST, PUT, DELETE) to manage Student entities using StudentRepository.
