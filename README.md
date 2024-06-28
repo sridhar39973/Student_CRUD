@@ -7,9 +7,9 @@ This guide will help you set up a basic Student Management System (SMS) using Sp
 Before you begin, ensure you have the following installed:
 
 - Java Development Kit (JDK) 8 or later
-- Maven
+- Any Web Browser
 - MySQL Server
-- IDE (Eclipse, IntelliJ IDEA, or your preferred IDE)
+- Spring Tool Suite
 
 ## Step-by-Step Setup Instructions
 
